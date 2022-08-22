@@ -1,0 +1,11 @@
+cfg_file: 'configs/SETR/setr_pup_depth18_kvasir.py'
+seed: 0
+fold: 0
+
+dataset: kvasir
+n_class: 2
+hidden_dim: 1024
+
+batchsize: 256
+lr: 0.01
+epochs: 2000

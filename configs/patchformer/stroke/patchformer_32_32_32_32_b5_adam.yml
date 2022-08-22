@@ -1,0 +1,12 @@
+cfg_file: 'local_configs/segformer/ours/patchformer_32_32_32_32_b5_depth3_6_32_3_rs4221.py'
+seed: 0
+fold: 0
+
+dataset: stroke
+
+lr: 0.01
+end_lr: 0.0001
+epochs: 500
+max_decay_epochs: 500
+use_mmcv_optim: False
+optim_type: adam

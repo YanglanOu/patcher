@@ -1,0 +1,10 @@
+cfg_file: 'configs/SETR/mysetr_pup_depth18.py'
+seed: 0
+
+dataset: cityscapes
+n_class: 34
+hidden_dim: 4096
+
+batchsize: 2
+lr: 0.01
+epochs: 200

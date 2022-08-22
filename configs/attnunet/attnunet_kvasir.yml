@@ -1,0 +1,13 @@
+cfg_file: 'local_configs/unet/kvasir.py'
+seed: 0
+fold: 0
+
+baseline_model: attnunet
+dataset: kvasir
+n_classes: 1
+n_channels: 3
+
+lr: 0.001 
+end_lr: 0.0001
+epochs: 500
+max_decay_epochs: 500

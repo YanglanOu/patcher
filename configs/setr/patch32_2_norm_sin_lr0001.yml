@@ -1,0 +1,13 @@
+cfg_file: 'configs/ours/patch32_2_norm_sin_stroke.py'
+seed: 0
+fold: 0
+
+dataset: stroke
+
+lr: 0.001
+end_lr: 0.0001
+epochs: 2000
+max_decay_epochs: 2000
+
+large_patch: 32
+small_patch: 2

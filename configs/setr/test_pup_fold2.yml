@@ -1,0 +1,11 @@
+cfg_file: 'configs/SETR/stroke_pup_depth18.py'
+seed: 0
+fold: 2
+
+dataset: stroke
+n_class: 1
+hidden_dim: 1024
+
+batchsize: 256
+lr: 0.01
+epochs: 2000

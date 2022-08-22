@@ -1,0 +1,13 @@
+cfg_file: 'configs/ours/patch64_4_norm_sin_aux_val_stroke.py'
+seed: 0
+fold: 0
+
+dataset: stroke
+
+lr: 0.01
+end_lr: 0.0001
+epochs: 2000
+max_decay_epochs: 2000
+
+large_patch: 64
+small_patch: 4

@@ -1,0 +1,15 @@
+cfg_file: 'local_configs/unet/unet_polyp.py'
+seed: 0
+fold: 0
+
+baseline_model: unet
+dataset: polyp
+n_channels: 3
+
+lr: 0.001 
+end_lr: 0.0001
+epochs: 500
+max_decay_epochs: 500
+
+large_patch: 64
+small_patch: 4

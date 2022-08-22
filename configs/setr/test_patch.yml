@@ -1,0 +1,8 @@
+cfg_file: 'configs/ours/patch_stroke.py'
+seed: 0
+fold: 0
+
+dataset: stroke
+
+lr: 0.01
+epochs: 2000

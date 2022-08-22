@@ -1,0 +1,14 @@
+cfg_file: 'local_configs/unet/unet_kvasir_strct.py'
+seed: 0
+fold: 0
+
+baseline_model: unet
+dataset: kvasir
+n_channels: 3
+
+lr: 0.0001
+end_lr: 0.00001
+epochs: 500
+max_decay_epochs: 500
+use_mmcv_optim: False
+optim_type: adam

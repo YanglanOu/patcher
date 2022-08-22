@@ -1,0 +1,14 @@
+cfg_file: 'local_configs/unet/stroke.py'
+seed: 0
+fold: 0
+
+baseline_model: transunet
+dataset: stroke
+n_classes: 1
+trans_Unet: 'R50-ViT-B_16'
+
+
+lr: 0.01
+end_lr: 0.0001
+epochs: 500
+max_decay_epochs: 500

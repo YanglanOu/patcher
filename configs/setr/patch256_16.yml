@@ -1,0 +1,11 @@
+cfg_file: 'configs/ours/patch256_16_stroke.py'
+seed: 0
+fold: 0
+
+dataset: stroke
+
+lr: 0.01
+epochs: 2000
+
+large_patch: 64
+small_patch: 4

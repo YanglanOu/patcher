@@ -1,0 +1,11 @@
+cfg_file: 'configs/ours/new_patchify.py'
+seed: 0
+fold: 0
+
+dataset: stroke
+
+lr: 0.01
+end_lr: 0.0001
+epochs: 2000
+max_decay_epochs: 2000
+context_padding: 1

@@ -1,0 +1,14 @@
+cfg_file: 'configs/ours/unet_stroke.py'
+seed: 0
+fold: 2
+
+baseline_model: unet
+dataset: stroke
+
+lr: 0.001
+end_lr: 0.0001
+epochs: 2000
+max_decay_epochs: 2000
+
+large_patch: 64
+small_patch: 4

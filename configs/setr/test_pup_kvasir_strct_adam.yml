@@ -1,0 +1,16 @@
+cfg_file: 'configs/SETR/setr_pup_depth18_kvasir_strct.py'
+seed: 0
+fold: 0
+
+dataset: kvasir
+n_class: 2
+hidden_dim: 1024
+
+batchsize: 256
+
+lr: 0.0001
+end_lr: 0.00001
+epochs: 500
+max_decay_epochs: 500
+use_mmcv_optim: False
+optim_type: adam

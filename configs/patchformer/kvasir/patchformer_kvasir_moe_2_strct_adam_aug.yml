@@ -1,0 +1,12 @@
+cfg_file: 'local_configs/segformer/kvasir/patchformer_kvasir_moe_2_strct_aug.py'
+seed: 0
+fold: 0
+
+dataset: kvasir
+
+lr: 0.0001
+end_lr: 0.00001
+epochs: 500
+max_decay_epochs: 500
+use_mmcv_optim: False
+optim_type: adam
