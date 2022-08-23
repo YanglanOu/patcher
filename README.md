@@ -6,7 +6,7 @@ Pytorch Implementation for our MICCAI 2022 paper: [Patcher: Patch Transformers w
 
 
 # Overview
-![Loading LambdaUnet Overview](https://github.com/YanglanOu/LambdaUNet/blob/main/images/lambda_layer.png)
+![Loading Patcher Overview](https://github.com/YanglanOu/patcher/blob/master/imgs/overview.pdf)
 
 # Installation
 ### Environment
