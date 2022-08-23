@@ -1,4 +1,4 @@
-# patcher
+# Patcher
 
 Pytorch Implementation for our MICCAI 2022 paper: [Patcher: Patch Transformers with Mixture of Experts for Precise Medical Image Segmentation
 .](https://arxiv.org/abs/2206.01741)
@@ -6,7 +6,7 @@ Pytorch Implementation for our MICCAI 2022 paper: [Patcher: Patch Transformers w
 
 
 # Overview
-![Loading Patcher Overview](https://github.com/YanglanOu/patcher/blob/master/imgs/overview.pdf)
+![Loading Patcher Overview](https://github.com/YanglanOu/patcher/blob/master/imgs/overview.png)
 
 # Installation
 ### Environment
