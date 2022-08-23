@@ -107,9 +107,6 @@ def get_scheduler(optimizer, policy, nepoch_fix=None, nepoch=None, decay_step=No
 
 
 def overlay(label_i, pred_i):
-    # pred_i = np.round(pred_i / 255.0)
-    # label_i = label_i.squeeze().cpu().numpy()
-    # pred_i = pred_i.squeeze().cpu().numpy()
     union = label_i * pred_i
     white = label_i - union
     red = pred_i - union

@@ -1,0 +1,10 @@
+timm==0.3.2
+torchmetrics==0.7.0
+nibabel
+gpustat
+einops
+pandas
+matplotlib
+scipy
+ml_collections
+git+https://github.com/cmpark0126/pytorch-polynomial-lr-decay.git
