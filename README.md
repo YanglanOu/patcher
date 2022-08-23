@@ -1,4 +1,4 @@
-# patcher
+# Patcher
 
 Pytorch Implementation for our MICCAI 2022 paper: [Patcher: Patch Transformers with Mixture of Experts for Precise Medical Image Segmentation
 .](https://arxiv.org/abs/2206.01741)
