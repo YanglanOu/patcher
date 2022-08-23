@@ -17,6 +17,8 @@ Pytorch Implementation for our MICCAI 2022 paper: [Patcher: Patch Transformers w
 1. Install [PyTorch 1.6.0](https://pytorch.org/get-started/previous-versions/) with the correct CUDA version.
 2. Install the dependencies:
     ```
+    pip install pytorch_lightning==1.5.2
+    pip install mmcv-full==1.2.2 -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.6.0/index.html
     pip install -r requirements.txt
 
     ```
