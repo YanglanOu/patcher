@@ -25,7 +25,7 @@ class Config:
         self.cfg_mm = Config1.fromfile(cfg['cfg_file'])
 
         # res dir for pytorch lighting 
-        self.base_dir = '/tmp/transformer' if tmp else cfg.get('results_dir', os.path.expanduser('~/results/transformer'))
+        self.base_dir = '/tmp/transformer' if tmp else cfg.get('results_dir', 'results/')
         self.cfg_dir = f'{self.base_dir}/{cfg_id}' 
         self.test_dir = f'{self.cfg_dir}/test' 
         self.vis_dir = f'{self.cfg_dir}/vis' 

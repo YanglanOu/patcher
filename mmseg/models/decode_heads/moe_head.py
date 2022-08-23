@@ -147,13 +147,13 @@ class MOEHead(BaseDecodeHead):
         x = self.dropout(x)
         x = self.linear_pred(x)
 
-        if img_metas is not None:
-            case = img_metas[0]['filename'].split('/')[-1].split('.')[0]
-            save_dir = 'results/moe_weights_cmap'
-            weights = moe_weights.cpu().numpy()
-            for i in range(moe_weights.shape[1]):
-                w = weights[0,i,:,:]
-                filename = f'{save_dir}/{case}_{i}.png'
-                plt.imsave(filename, w, cmap='OrRd', vmin=0, vmax=0.6)
-                # cv2.imwrite(filename, w*255)
+        # if img_metas is not None:
+        #     case = img_metas[0]['filename'].split('/')[-1].split('.')[0]
+        #     save_dir = 'results/moe_weights_cmap'
+        #     weights = moe_weights.cpu().numpy()
+        #     for i in range(moe_weights.shape[1]):
+        #         w = weights[0,i,:,:]
+        #         filename = f'{save_dir}/{case}_{i}.png'
+        #         plt.imsave(filename, w, cmap='OrRd', vmin=0, vmax=0.6)
+        #         # cv2.imwrite(filename, w*255)
         return x
