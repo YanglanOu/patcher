@@ -11,10 +11,10 @@ Pytorch Implementation for our MICCAI 2022 paper: [Patcher: Patch Transformers w
 # Installation
 ### Environment
 * Tested OS: Linux
-* Python >= 3.6
+* Python >= 3.7
 
 ### Dependencies:
-1. Install [PyTorch 1.4.0](https://pytorch.org/get-started/previous-versions/) with the correct CUDA version.
+1. Install [PyTorch 1.6.0](https://pytorch.org/get-started/previous-versions/) with the correct CUDA version.
 2. Install the dependencies:
     ```
     pip install -r requirements.txt
