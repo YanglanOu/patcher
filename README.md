@@ -6,7 +6,7 @@ Pytorch Implementation for our MICCAI 2022 paper: [Patcher: Patch Transformers w
 
 
 # Overview
-![Loading Patcher Overview](https://github.com/YanglanOu/patcher/blob/master/imgs/overview.pdf)
+![Loading Patcher Overview](https://github.com/YanglanOu/patcher/blob/master/imgs/overview.png)
 
 # Installation
 ### Environment
