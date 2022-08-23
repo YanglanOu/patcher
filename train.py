@@ -16,7 +16,6 @@ from setr.LitModel import *
 from torchvision import transforms
 
 from unet.LitUNet import LitUNet
-# from dataset import *
 
 
 if __name__ == '__main__':
